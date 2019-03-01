@@ -31,3 +31,24 @@ If Solve
 If no Solve
 	Sky is unclear don't use telescope
 	
+
+
+
+** To Do **
+1)Build something to test if an arbitrliy oriendted cylinder of length L and radius R intersects with a cone of 
+height H and slope A
+	1.1) Intersect with Cylinder
+	1.2) Intersect 
+
+2)Set up a way to convert Ra and Dec or alt az to the orientation of the cylinder 
+
+3)Create a path from A to B where the cylinder keeps a minimum distance D from the cone
+
+4)Communicate with astrometry.net api
+	4.1)Upload a Picture
+	4.2)Check Status
+	4.3)Get the Alt AZ
+	4.4)Get specific Stars
+	4.5)Get alt az of specific stars
+
+5)Be able to setup 
