@@ -1,0 +1,33 @@
+Info required
+*latitude & Longitude of telescope
+*time
+*Locations of no go zone moved by controller
+	*Given in ra and dec
+	*
+*Is there a counter-weight
+*Which side of the mount is the telescope on
+ 
+
+
+
+Method
+Take a picture of the sky
+Feed picture to the sky to astrometry program / api
+Wait for solve
+
+If Solve
+	Get ra_center and dec_center
+	Convert to alt and azimuth
+	Get RA and DEC of several stars used to solve
+		Comes from astrometry.net\api
+	Convert to alt and azimuth
+	get pixel location of stars used to solve
+		Comes from api 
+	coordinate conversians to the same coordinate system 
+	Overlay the two pictures 
+	Calculate the angle between the two
+	That angle is relavtive to the position
+	
+If no Solve
+	Sky is unclear don't use telescope
+	
